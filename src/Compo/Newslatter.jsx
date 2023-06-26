@@ -3,7 +3,7 @@
 
 const Newslatter = () => {
     return (
-        <div className="bg-white p-10 md:grid grid-cols-2 w-[90%] mx-auto rounded-3xl">
+        <div className="bgwhite bg-white p-10 md:grid grid-cols-2 w-[90%] mx-auto rounded-3xl">
             <div>
                 <h2 className="text-2xl font-semibold text-red-500">Newsletter</h2>
                 <h1 className="text-4xl font-semibold mt-5 text-red-500">Lets Work Together</h1>

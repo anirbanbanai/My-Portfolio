@@ -9,7 +9,7 @@ import Skills from "./Skills";
 
 const Home = () => {
     return (
-        <div className="bg-slate-100 pt-20">
+        <div className=" pt-20">
            <Section1></Section1>
            <Section2></Section2>
            <Service></Service>
