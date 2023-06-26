@@ -5,7 +5,7 @@ import img from '../assets/IMG_20230312_193407.jpg'
 
 const Default = () => (
   <Tilt>
-    <img className='rounded-full' src={img} alt="" />
+    <img className='rounded-full w-[450px]' src={img} alt="" />
   </Tilt>
 );
 
