@@ -23,6 +23,7 @@
     "react-icons": "^4.10.1",
     "react-lazy-load": "^4.0.1",
     "react-parallax-tilt": "^1.7.148",
+    "react-particles": "^2.10.1",
     "react-pulse-text": "^1.0.8",
     "react-router-dom": "^6.13.0",
     "sort-by": "^1.2.0",

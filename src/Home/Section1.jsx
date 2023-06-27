@@ -20,8 +20,8 @@ const customAnimation = keyframes`
 `;
 const Section1 = () => {
     return (
-        <div className="grid md:grid-cols-2">
-            <div className="p-5 pl-11 ">
+        <div className="grid md:grid-cols-2 ml-5">
+            <div className="p-5 pl-11 nnn">
                 
             <Fade cascade damping={.1}>
             <h3 className="text-xl font-semibold">MERN stack developer</h3>

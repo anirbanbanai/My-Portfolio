@@ -17,35 +17,53 @@
 [data-theme="dark"] .themeNav {
   background-color: #141414;
 }
+
 [data-theme="dark"] .nnn {
-  border: none;
-  outline: none;
-  padding: 0px 7px;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 15px;
-  background-color: transparent;
-  box-shadow: 3px 3px 10px rgba(0,0,0,1),
-  -1px -1px 6px rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 20px;
+  background: #353333;
+  box-shadow: 5px 5px 5px #626262,
+    -5px -5px 5px #ffffff;
 }
+
 [data-theme="dark"] :hover.nnn {
- background-color: red;
+  background-color: rgb(32, 31, 31);
 }
 
 .nnn {
-  border-radius: 43px;
-  background: #f3f2f2;
-  box-shadow: 5px 5px 10px #646262,
-    -5px -5px 10px #ffffff;
-}
-.n3 div {
-  border-radius: 15px;
-  background: #faf4f4;
-  box-shadow: 17px 17px 27px #4d4a4a,
-    -17px -17px 27px #e6dede;
+  padding: 20px;
+  border-radius: 20px;
+  background: #f6f4f4;
+  box-shadow: 5px 5px 5px #626262,
+    -5px -5px 5px #ffffff;
 }
 
-.input {
+.n3 div {
+  padding: 20px;
+  border-radius: 20px;
+  background: #f6f4f4;
+  box-shadow: 5px 5px 5px #626262,
+    -5px -5px 5px #ffffff;
+}
+
+
+.input{
+  padding: 20px;
+  border-radius: 20px;
+  background: #f6f4f4;
+  box-shadow: 5px 5px 5px #626262,
+    -5px -5px 5px #ffffff;
+}
+.textarea {
+  padding: 20px;
+  border-radius: 20px;
+  background: #f6f4f4;
+  box-shadow: 5px 5px 5px #626262,
+    -5px -5px 5px #ffffff;
+}
+
+
+[data-theme="dark"] .input {
   width: 200px;
   height: 45px;
   border: none;
@@ -55,11 +73,10 @@
   color: #fff;
   font-size: 15px;
   background-color: transparent;
-  box-shadow: 3px 3px 10px rgba(0,0,0,1),
-  -1px -1px 6px rgba(255, 255, 255, 0.4);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
 }
-
-.textarea {
+[data-theme="dark"] .textarea {
   width: 90%;
   height: 135px;
   padding: 0px 7px;
@@ -80,6 +97,11 @@
   padding: 12px 10px;
 }
 
+[data-theme="dark"] .cover {
+  background-color: rgb(124, 120, 120);
+  -webkit-box-shadow: 1px 1px 12px #524e4e;
+  box-shadow: 1px 1px 12px #3d3b3b;
+}
 
 .book {
   border-radius: 10px;

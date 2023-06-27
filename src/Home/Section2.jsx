@@ -1,7 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import Btntt from "../Compo/Btn";
 import img from '../assets/mail-to-sms-compatible-toute-messagerie.svg'
-import PulseText from 'react-pulse-text';
 import { keyframes } from "@emotion/react";
 import { Reveal } from "react-awesome-reveal";
 

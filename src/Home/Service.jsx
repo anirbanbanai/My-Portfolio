@@ -4,7 +4,7 @@ import { Reveal } from "react-awesome-reveal";
 const customAnimation = keyframes`
   from {
     opacity: 0;
-    transform: translate3d(-150px, 10px, 0);
+    transform: translate3d(-150px, 1px, 0);
   }
 
   
@@ -36,6 +36,7 @@ const Service = () => {
             <h3 className="text-3xl font-bold text-center">Services</h3>
             <div className="mt-9 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
+                    
                     <Reveal keyframes={customAnimation}>
                         <h2 className="text-3xl font-bold">Web Development</h2>
                         <p className="mt-3 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iste, quae corporis sint culpa suscipit asperiores dolorum nobis! Voluptate, veritatis?</p>
