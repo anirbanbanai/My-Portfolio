@@ -3,12 +3,28 @@ import Btntt from "../Compo/Btn";
 import { FaFacebookF } from 'react-icons/fa';
 import { BsGithub, BsInstagram } from 'react-icons/bs';
 import Default from "../Compo/Tilt";
+import { Fade } from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
+import { Reveal } from "react-awesome-reveal";
 
+const customAnimation = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(-200px, 10px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+`;
 const Section1 = () => {
     return (
         <div className="grid md:grid-cols-2">
-            <div className="p-5 pl-11">
-                <h3 className="text-xl font-semibold">MERN stack developer</h3>
+            <div className="p-5 pl-11 ">
+                
+            <Fade cascade damping={.1}>
+            <h3 className="text-xl font-semibold">MERN stack developer</h3>
                 <h1 className="text-5xl font-bold mt-2 text-red-500">Hey ! I am </h1>
                 <h1 className="text-5xl font-bold mt-5 ">Anirban Chondro Banai</h1>
                 <p className="text-xl font-semibold mt-5">I am a MERN stack developer and experiences bulding Full-stack website</p>
@@ -22,9 +38,13 @@ const Section1 = () => {
                     <a href="https://github.com/anirbanbanai" className="text-2xl ml-3"><BsGithub /></a>
                     <p className="text-2xl ml-2"><BsInstagram /></p>
                 </div>
+            </Fade>
+                
             </div>
-            <div className=" p-16 pt-5">
+            <div className="n4 p-16 pt-5">
+            <Reveal keyframes={customAnimation}>
                 <Default />
+            </Reveal>
             </div>
         </div>
     );
