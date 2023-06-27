@@ -3,10 +3,9 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
 import Btntt from "./Btn";
 
-
 const ContactMe = () => {
     return (
-        <div className=" p-10">
+        <div id="contact" className=" p-10">
             <h2 className="text-red-500 text-5xl font-bold text-center mb-3">Contact me</h2>
             <div className="mt-5 md:grid grid-cols-2">
                 <div >
@@ -20,10 +19,10 @@ const ContactMe = () => {
                     </div>
                     <div className="flex items-center mb-5">
                         <GrLocation className="text-4xl" />
-                        <div className="ml-4">
-                            <h2 className="text-2xl font-semibold">Location</h2>
-                            <p className="text-xl">Bangladesh, Mymensingh</p>
-                        </div>
+                        <a href="#map" className="ml-4">
+                            <h2 className="text-2xl font-semibold">Location </h2>
+                            <p className="text-xl">Bangladesh, Mymensingh </p>
+                        </a>
 
                     </div>
                     <div className="flex items-center mb-5">

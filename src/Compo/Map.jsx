@@ -5,7 +5,7 @@ const Maps = () => {
     const [hue, setHue] = useState(0)
     const color = `hsl(${hue % 360}deg 39% 70%)`
     return (
-        <div className="container mx-auto">
+        <div id="map" className="nnn1 container mx-auto">
             <h2 className="text-5xl text-red-500 font-bold text-center pb-5">My Location</h2>
             <Map className='rounded-3xl' height={400} defaultCenter={[24.45, 90.24]} defaultZoom={11}>
                 <Marker

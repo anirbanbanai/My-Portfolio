@@ -31,7 +31,7 @@ const customAnimation4 = keyframes`
 
 const Service = () => {
     return (
-        <div className="w-full p-5">
+        <div id="service" name="test1" className="w-full p-5">
             <h1 className="text-2xl text-red-500 font-semibold text-center"> What service I offer you</h1>
             <h3 className="text-3xl font-bold text-center">Services</h3>
             <div className="mt-9 grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -17,7 +17,7 @@ const customAnimation = keyframes`
 `;
 const Section2 = () => {
     return (
-        <div className="grid md:grid-cols-2">
+        <div id="about" className="grid md:grid-cols-2 mt-20">
 
             <div className="p-5 pl-11">
                 <Fade cascade damping={0.1}>
