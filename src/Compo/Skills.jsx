@@ -25,7 +25,7 @@ const Skills = () => {
         <div id="skill" className=' w-[90%]  mx-auto mt-10 mb-10'>
             <h2 className='text-4xl font-bold text-center mb-5'>My Skills </h2>
 
-           <div className='nnn1'>
+           <div className='nnn2'>
            <h3 className='text-3xl font-bold text-center mb-6'>Front End Technology</h3>
             <div data-aos="zoom-in-up" data-aos-duration="1000" className=' n4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
                 <div className='text-center bg-slate-300 p-5 rounded-2xl'>
@@ -67,7 +67,7 @@ const Skills = () => {
            </div>
 
 
-           <div className='nnn1'>
+           <div className='nnn2'>
            <h3 className='text-3xl font-bold text-center mb-6 mt-5'>Back End Technology</h3>
             <div data-aos="zoom-in-up" data-aos-duration="1000" className=' n4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
                 <div className='text-center bg-slate-300 p-5 rounded-2xl'>

@@ -39,14 +39,14 @@ const Service = () => {
                     
                     <Reveal keyframes={customAnimation}>
                         <h2 className="text-3xl font-bold">Web Development</h2>
-                        <p className="mt-3 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iste, quae corporis sint culpa suscipit asperiores dolorum nobis! Voluptate, veritatis?</p>
+                        <p className="mt-3 font-normal">As a Web Developer use coding language like HTML, CSS, JavaScript and Python to build website and web application</p>
                     </Reveal>
 
                 </div>
                 <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
                     <Reveal keyframes={customAnimation2}>
                         <h2 className="text-3xl font-bold">Front-End Development</h2>
-                        <p className="mt-3 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iste, quae corporis sint culpa suscipit asperiores dolorum nobis! Voluptate, veritatis?</p>
+                        <p className="mt-3 font-normal"><p className="mt-3 font-normal">As a Front End Developer use FrontEnd Technology like React.JS, CSS FrameWork like Tailwind CSS, Bootstrap, React Awesome components to build website and web application</p></p>
                     </Reveal>
 
                 </div>
@@ -54,7 +54,7 @@ const Service = () => {
                 <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
                     <Reveal keyframes={customAnimation3}>
                         <h2 className="text-3xl font-bold">Full-Stack Development</h2>
-                        <p className="mt-3 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iste, quae corporis sint culpa suscipit asperiores dolorum nobis! Voluptate, veritatis?</p>
+                        <p className="mt-3 font-normal">As a Full Stack Developer use FullStack Technology like Express.JS, Node.JS, MongoDb, Firebase Authentication to build website and web application</p>
                     </Reveal>
 
                 </div>
@@ -62,7 +62,7 @@ const Service = () => {
                 <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
                     <Reveal keyframes={customAnimation4}>
                         <h2 className="text-3xl font-bold">API intigration</h2>
-                        <p className="mt-3 text-xl font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iste, quae corporis sint culpa suscipit asperiores dolorum nobis! Voluptate, veritatis?</p>
+                        <p className="mt-3 text-xl font-normal">I offer API integration service in existing application or in software i create from scratch</p>
                     </Reveal>
 
                 </div>
@@ -70,7 +70,7 @@ const Service = () => {
                 <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
                     <Reveal keyframes={customAnimation}>
                         <h2 className="text-3xl font-bold">Landing Page Design</h2>
-                        <p className="mt-3 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iste, quae corporis sint culpa suscipit asperiores dolorum nobis! Voluptate, veritatis?</p>
+                        <p className="mt-3 font-normal">I Provide Custom design</p>
                     </Reveal>
 
                 </div>

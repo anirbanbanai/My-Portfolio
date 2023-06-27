@@ -17,9 +17,9 @@ const customAnimation = keyframes`
 `;
 const Section2 = () => {
     return (
-        <div id="about" className="grid md:grid-cols-2 mt-20">
+        <div id="about" className="nnn2 grid md:grid-cols-2 mt-20">
 
-            <div className="p-5 pl-11">
+            <div className="p-5 ">
                 <Fade cascade damping={0.1}>
                     <h2 className="text-2xl font-semibold text-red-500"> About Me</h2>
                     <h1 className="text-4xl font-bold mt-3">Why Hire Me For Your Next Project?</h1>

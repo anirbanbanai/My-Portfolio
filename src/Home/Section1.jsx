@@ -1,6 +1,6 @@
 
 import Btntt from "../Compo/Btn";
-import { FaFacebookF } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedin } from 'react-icons/fa';
 import { BsGithub, BsInstagram } from 'react-icons/bs';
 import Default from "../Compo/Tilt";
 import { Fade } from "react-awesome-reveal";
@@ -21,7 +21,7 @@ const customAnimation = keyframes`
 const Section1 = () => {
     return (
         <div id="home" className=" nnn1 grid md:grid-cols-2 ">
-            <div className="p-5 pl-11 ">
+            <div className="p-5  ">
                 
             <Fade cascade damping={.1}>
             <h3 className="text-xl font-semibold">MERN stack developer</h3>
@@ -36,7 +36,8 @@ const Section1 = () => {
                 <div className="flex mt-2">
                     <a href="https://web.facebook.com/profile.php?id=100077890384340" className="text-2xl ml-1"><FaFacebookF /></a>
                     <a href="https://github.com/anirbanbanai" className="text-2xl ml-3"><BsGithub /></a>
-                    <p className="text-2xl ml-2"><BsInstagram /></p>
+                    <a href="https://www.linkedin.com/in/anirban-chandra-banai-b0a222275/" className="text-2xl ml-3"><FaLinkedin /></a>
+                    <a href="https://www.instagram.com/anirbanbanai/" className="text-2xl ml-3"><BsInstagram /></a>
                 </div>
             </Fade>
                 

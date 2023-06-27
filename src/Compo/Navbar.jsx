@@ -47,12 +47,12 @@ const Navbar = () => {
                         {NavItem}
                     </ul>
                 </div>
-                <div className="navbar-end flex items-center justify-center">
+                <div className="navbar-end ">
                     <a className="hidden md:flex items-center justify-center" href="mailto:anirbanchondrobanai@gmail.com">
                         <Btntt>Contact Me</Btntt>
                     </a>
 
-                    <div className="flex items-center justify-center">
+                    <div className=" pl-5">
                         <label className="switch">
                             <input type="checkbox" onChange={handletoggle} name="" id="" />
                             <span className="slider"></span>
