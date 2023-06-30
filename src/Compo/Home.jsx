@@ -4,6 +4,7 @@ import Service from "../Home/Service";
 import ContactMe from "./ContactMe";
 import Maps from "./Map";
 import MyProject from "./MyProject";
+// import MyTest from "./MyTest";
 import Newslatter from "./Newslatter";
 import Skills from "./Skills";
 
@@ -19,6 +20,7 @@ const Home = () => {
            <Newslatter></Newslatter>
            <ContactMe></ContactMe>
            <Maps></Maps>
+           {/* <MyTest></MyTest> */}
         </div>
     );
 };

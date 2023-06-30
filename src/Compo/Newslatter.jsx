@@ -13,7 +13,7 @@ const Newslatter = () => {
 
                 <input className=" input " type="email" name="" placeholder="Email" id="" />
 
-                <button className="btn btn-warning btn-outline m-3">Subscribe</button>
+                <button className="btn btn-warning btn-outline m-3">Send</button>
             </div>
         </div>
     );

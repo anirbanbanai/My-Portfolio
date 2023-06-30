@@ -45,10 +45,10 @@ const ContactMe = () => {
                     </div>
                 </div>
 
-                <form>
+                <form className="mt-10">
 
                     <div className="md:flex gap-5  mb-4">
-                        <input type="text" placeholder="Enter Your Name" className="input  w-full mb-2" />
+                        <input type="text" placeholder="Enter Your Name" className="input  w-full mb-4" />
                         <input type="email" placeholder="Enter Your Emal" className="input w-full " />
                     </div>
 

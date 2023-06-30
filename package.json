@@ -19,6 +19,7 @@
     "pigeon-maps": "^0.21.3",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.3",
+    "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",

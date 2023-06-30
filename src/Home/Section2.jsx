@@ -27,9 +27,14 @@ const Section2 = () => {
                             Debugging, Front-End development , Back-End development. I have recently complete my MERN stack
                             project . And also complete more than 15 project based on my skills. Also, I am interested to work more with
                             MERN stack development in future with the ABC company.</p>
-                    <a href="https://drive.google.com/file/d/1JEEwXx3YPzM-VxzVoESnTmAvcAoW2V9T/view">
+                   <div className="sm:flex">
+                   <a href="https://drive.google.com/file/d/1JEEwXx3YPzM-VxzVoESnTmAvcAoW2V9T/view">
                         <Btntt>Download CV</Btntt>
                     </a>
+                    <a href="https://drive.google.com/file/d/179KKSCQABlb50lWS9Ggfj1wT2Rmiv943/view">
+                        <Btntt>Download Cover Latter</Btntt>
+                    </a>
+                   </div>
                 </Fade>
 
             </div>
