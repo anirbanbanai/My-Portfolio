@@ -48,8 +48,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <a className="hidden md:flex items-center justify-center" href="mailto:anirbanchondrobanai@gmail.com">
-                        <Btntt>Contact Me</Btntt>
+                    <a className="hidden md:flex items-center justify-center" href="https://drive.google.com/file/d/1JEEwXx3YPzM-VxzVoESnTmAvcAoW2V9T/view">
+                        <Btntt>Download CV</Btntt>
                     </a>
 
                     <div className=" pl-5">
