@@ -4,8 +4,25 @@ import { GrLocation } from "react-icons/gr";
 import Btntt from "./Btn";
 import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 import { BsGithub, BsInstagram } from "react-icons/bs";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 
 const ContactMe = () => {
+    
+    const form = useRef();
+
+    const sendEmail = (e) => {
+
+        e.preventDefault();
+
+        emailjs.sendForm('service_lmh4fz4', 'template_myh6j2c', form.current, 'iFtRcuCAcdj61l7qw')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <div id="contact" className=" p-10">
             <h2 className="text-red-500 text-5xl font-bold text-center mb-3">Contact me</h2>
@@ -36,26 +53,26 @@ const ContactMe = () => {
 
                     </div>
                     <div>
-                    <div className="flex mt-2">
-                    <a href="https://web.facebook.com/profile.php?id=100077890384340" className="text-2xl ml-1"><FaFacebookF /></a>
-                    <a href="https://github.com/anirbanbanai" className="text-2xl ml-3"><BsGithub /></a>
-                    <a href="https://www.linkedin.com/in/anirban-chandra-banai-b0a222275/" className="text-2xl ml-3"><FaLinkedin /></a>
-                    <a href="https://www.instagram.com/anirbanbanai/" className="text-2xl ml-3"><BsInstagram /></a>
-                </div>
+                        <div className="flex mt-2">
+                            <a href="https://web.facebook.com/profile.php?id=100077890384340" className="text-2xl ml-1"><FaFacebookF /></a>
+                            <a href="https://github.com/anirbanbanai" className="text-2xl ml-3"><BsGithub /></a>
+                            <a href="https://www.linkedin.com/in/anirban-chandra-banai-b0a222275/" className="text-2xl ml-3"><FaLinkedin /></a>
+                            <a href="https://www.instagram.com/anirbanbanai/" className="text-2xl ml-3"><BsInstagram /></a>
+                        </div>
                     </div>
                 </div>
 
-                <form className="mt-10">
+                <form className="mt-10"  ref={form} onSubmit={sendEmail}>
 
                     <div className="md:flex gap-5  mb-4">
-                        <input type="text" placeholder="Enter Your Name" className="input  w-full mb-4" />
-                        <input type="email" placeholder="Enter Your Emal" className="input w-full " />
+                        <input type="text" placeholder="Enter Your Name" name="from_name" className="input  w-full mb-4" />
+                        <input type="email" placeholder="Enter Your Emal" name="from_email" className="input w-full " />
                     </div>
 
-                    <input type="text" placeholder="Enter Your Subject" className="input  w-full " />
+                    <input type="text" name="subject" placeholder="Enter Your Subject" className="input  w-full " />
                     <br />
-                    <textarea className=" textarea  w-full mt-4 h-32" placeholder="Your Message"></textarea>
-                    <Btntt>Submit</Btntt>
+                    <textarea name="message" className=" textarea  w-full mt-4 h-32" placeholder="Your Message"></textarea>
+                    <Btntt  type="reset">Submit</Btntt>
                 </form>
             </div>
         </div>

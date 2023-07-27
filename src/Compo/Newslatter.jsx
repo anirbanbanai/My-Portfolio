@@ -11,7 +11,7 @@ const Newslatter = () => {
             </div>
             <div className="md:flex items-center justify-center">
 
-                <input className=" input " type="email" name="" placeholder="Email" id="" />
+                <input className="mt-5 input " type="email" name="" placeholder="Email" id="" />
 
                 <button className="btn btn-warning btn-outline m-3">Send</button>
             </div>
