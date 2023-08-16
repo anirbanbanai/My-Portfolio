@@ -36,7 +36,7 @@ const Section1 = () => {
                 <div className="flex mt-2">
                     <a href="https://web.facebook.com/profile.php?id=100077890384340" className="text-2xl ml-1"><FaFacebookF /></a>
                     <a href="https://github.com/anirbanbanai" className="text-2xl ml-3"><BsGithub /></a>
-                    <a href="https://www.linkedin.com/in/anirban-chandra-banai-b0a222275/" className="text-2xl ml-3"><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/anirban-cb-50439b284/" className="text-2xl ml-3"><FaLinkedin /></a>
                     <a href="https://www.instagram.com/anirbanbanai/" className="text-2xl ml-3"><BsInstagram /></a>
                 </div>
             </Fade>
