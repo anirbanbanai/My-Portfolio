@@ -13,6 +13,10 @@ import img10 from '../assets/skills/express-js.png'
 import img11 from '../assets/skills/firebase2.webp'
 import img12 from '../assets/skills/next.png'
 import img13 from '../assets/skills/type.png'
+import img14 from '../assets/nest.png'
+import img15 from '../assets/post.png'
+import img16 from '../assets/MySQL-Logo.jpg'
+import img17 from '../assets/redux.png'
 // import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
@@ -33,28 +37,32 @@ const Skills = () => {
                 <div data-aos="zoom-in-up" data-aos-duration="1000" className=' n4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img12} alt="" />
-                        <h3>Next.js</h3><div className="radial-progress tb" style={{ "--value": 95 }}>95%</div>
+                        <h3 className='font-bold mb-2'>Next.js</h3><div className=" radial-progress tb" style={{ "--value": 95 }}>95%</div>
+                    </div>
+                    <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
+                        <img className='mx-auto w-16' src={img17} alt="" />
+                        <h3 className='font-bold mb-2'>Redux</h3><div className="radial-progress tb" style={{ "--value": 95 }}>95%</div>
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img13} alt="" />
-                        <h3>Typescript</h3><div className="radial-progress tb" style={{ "--value": 80 }}>80%</div>
+                        <h3 className='font-bold mb-2'>Typescript</h3><div className="radial-progress tb" style={{ "--value": 80 }}>80%</div>
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img7} alt="" />
-                        <h3>Tailwind</h3><div className="radial-progress tb" style={{ "--value": 95 }}>95%</div>
+                        <h3 className='font-bold mb-2'>Tailwind</h3><div className="radial-progress tb" style={{ "--value": 95 }}>95%</div>
                     </div>
 
                     <div className='text-center  bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img1} alt="" />
 
-                        <h3 >Bootstrap</h3>
+                        <h3  className='font-bold mb-2'>Bootstrap</h3>
 
                         <div className="radial-progress tb" style={{ "--value": 90 }}>90%</div>
 
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img2} alt="" />
-                        <h3>CSS3</h3>
+                        <h3 className='font-bold mb-2'>CSS3</h3>
 
                         <div className="radial-progress tb" style={{ "--value": 95 }}>95%</div>
 
@@ -62,16 +70,16 @@ const Skills = () => {
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img3} alt="" />
-                        <h3>HTML5</h3>
+                        <h3 className='font-bold mb-2'>HTML5</h3>
                         <div className="radial-progress tb" style={{ "--value": 95 }}>95%</div>
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img4} alt="" />
-                        <h3>JavaScript</h3><div className="radial-progress tb" style={{ "--value": 90 }}>90%</div>
+                        <h3 className='font-bold mb-2'>JavaScript</h3><div className="radial-progress tb" style={{ "--value": 90 }}>90%</div>
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-16' src={img6} alt="" />
-                        <h3>React</h3><div className="radial-progress tb" style={{ "--value": 90 }}>90%</div>
+                        <h3 className='font-bold mb-2'>React</h3><div className="radial-progress tb" style={{ "--value": 90 }}>90%</div>
                     </div>
 
                 </div>
@@ -82,8 +90,8 @@ const Skills = () => {
                 <h3 className='text-3xl font-bold text-center mb-6 mt-5'>Back End Technology</h3>
                 <div data-aos="zoom-in-up" data-aos-duration="1000" className=' n4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
-                        <img className='mx-auto w-20' src={img8} alt="" />
-                        <h3>MongoDb</h3>
+                        <img className='mx-auto w-20' src={img14} alt="" />
+                        <h3 className='font-bold mb-2'>Nest.js</h3>
                         {/* <div style={{ width: 150, height: 150 }}>
                             <CircularProgressbar value={66} >
                                 66
@@ -91,18 +99,19 @@ const Skills = () => {
                         </div> */}
                         <div className="radial-progress tb" style={{ "--value": 85 }}>85%</div>
                     </div>
+                   
 
                     <div className='text-center  bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-20' src={img9} alt="" />
 
-                        <h3 >Node JS</h3>
+                        <h3  className='font-bold mb-2'>Node JS</h3>
 
                         <div className="radial-progress tb" style={{ "--value": 85 }}>85%</div>
 
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-20' src={img10} alt="" />
-                        <h3>Express JS</h3>
+                        <h3 className='font-bold mb-2'>Express JS</h3>
 
                         <div className="radial-progress tb" style={{ "--value": 85 }}>85%</div>
 
@@ -110,7 +119,7 @@ const Skills = () => {
                     </div>
                     <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
                         <img className='mx-auto w-20' src={img11} alt="" />
-                        <h3>Firebase </h3>
+                        <h3 className='font-bold mb-2'>Firebase </h3>
 
                         <div className="radial-progress tb" style={{ "--value": 85 }}>85%</div>
 
@@ -120,7 +129,41 @@ const Skills = () => {
 
                 </div>
             </div>
-
+            <div className='nnn2'>
+            <h3 className='text-3xl font-bold text-center mb-6 mt-5'>Database</h3>
+                <div  data-aos="zoom-in-up" data-aos-duration="1000" className=' n4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
+                    <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
+                        <img className='mx-auto w-20' src={img15} alt="" />
+                        <h3 className='font-bold mb-2'>PostgreSQL</h3>
+                        {/* <div style={{ width: 150, height: 150 }}>
+                            <CircularProgressbar value={66} >
+                                66
+                            </CircularProgressbar>
+                        </div> */}
+                        <div className="radial-progress tb" style={{ "--value": 85 }}>85%</div>
+                    </div>
+                    <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
+                        <img className='mx-auto w-20' src={img8} alt="" />
+                        <h3 className='font-bold mb-2'>Mongodb</h3>
+                        {/* <div style={{ width: 150, height: 150 }}>
+                            <CircularProgressbar value={66} >
+                                66
+                            </CircularProgressbar>
+                        </div> */}
+                        <div className="radial-progress tb" style={{ "--value": 85 }}>85%</div>
+                    </div>
+                    <div className='text-center bg-slate-300 p-5 rounded-2xl mx-5 md:mx-0'>
+                        <img className='mx-auto w-20' src={img16} alt="" />
+                        <h3 className='font-bold mb-2'>MySQl</h3>
+                        {/* <div style={{ width: 150, height: 150 }}>
+                            <CircularProgressbar value={66} >
+                                66
+                            </CircularProgressbar>
+                        </div> */}
+                        <div className="radial-progress tb" style={{ "--value": 85 }}>85%</div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     );

@@ -50,6 +50,13 @@ const Service = () => {
                     </Reveal>
 
                 </div>
+                <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
+                    <Reveal keyframes={customAnimation2}>
+                        <h2 className="text-3xl font-bold">Back-End Development</h2>
+                        <p className="mt-3 font-normal"><p className="mt-3 font-normal">As a Front End Developer use Back-End Technology like Node.js,express.js, back end FrameWork like Nest.js to build website and web application</p></p>
+                    </Reveal>
+
+                </div>
 
                 <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
                     <Reveal keyframes={customAnimation3}>
@@ -69,8 +76,10 @@ const Service = () => {
 
                 <div className="nnn bg-slate-200 p-5 rounded-2xl hover:bg-white">
                     <Reveal keyframes={customAnimation}>
-                        <h2 className="text-3xl font-bold">Landing Page Design</h2>
-                        <p className="mt-3 font-normal">I Provide Custom design</p>
+                        <h2 className="text-3xl font-bold">Database</h2>
+                        <p className="mt-3 font-normal">
+                            I use MongoDb,PostgreSQL, GrapSQl
+                        </p>
                     </Reveal>
 
                 </div>
