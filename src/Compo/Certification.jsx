@@ -2,7 +2,7 @@
 
 const Certification = () => {
     return (
-        <div className="mb-10 bg-slate-600">
+        <div className="mb-10 bg-slate-600 crt">
             <h1 className="text-4xl pt-4 font-bold text-red-500 text-center mb-5">Certification and Activities</h1>
 
             <div className=" p-5 pb-0 rounded-2xl" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay={300}>

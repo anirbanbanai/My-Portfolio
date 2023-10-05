@@ -1,7 +1,7 @@
 
 import img from '../assets/skills/school camp.png'
 
-import img4 from '../assets/skills/Kitchen.png'
+import img4 from '../assets/pt.png'
 import img5 from '../assets/my bleust.png'
 
 const MyProject = () => {
@@ -30,18 +30,15 @@ const MyProject = () => {
             <div className="book bg-slate-200 rounded-2xl p-5">
                     <div>
                     <div>
-                    <a href="https://github.com/anirbanbanai/Nilutpala-kitchen-client">Client</a>
+                    <a href="https://github.com/anirbanbanai/travel-goo">Code</a>
                     </div>
-                    <div>
-                    <a href="https://github.com/anirbanbanai/Nilutpala-Kitchen-Server">Server</a>
-                    </div> 
                    <div>
-                   <a href="https://nilutpala-kitchen.web.app/">Live</a>
+                   <a href="https://travel-goo-phi.vercel.app/">Live</a>
                    </div>
                     </div>
                    <div className='cover'>
                   <div>
-                  <h2 className='text-2xl text-center font-semibold mb-3'>SQ Kitchen</h2>
+                  <h2 className='text-2xl text-center font-semibold mb-3'>Travel Goo</h2>
                         <img className='  rounded-2xl' src={img4} alt="" />
                   </div>
                    </div>

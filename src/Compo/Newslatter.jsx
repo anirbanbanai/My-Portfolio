@@ -9,11 +9,13 @@ const Newslatter = () => {
                 <h1 className="text-4xl font-semibold mt-5 text-red-500">Lets Work Together</h1>
                 <h4 className="text-xl font-semibold mt-5">Are you impressed and want a Customs Project? Give a call and email me any time.</h4>
             </div>
-            <div className="md:flex items-center justify-center">
+            <div className="flex items-center justify-center mt-5">
 
-                <input className="mt-5 input " type="email" name="" placeholder="Email" id="" />
+                <input className=" input " type="email" name="" placeholder="Email" id="" />
 
+                <div>
                 <button className="btn btn-warning btn-outline m-3">Send</button>
+                </div>
             </div>
         </div>
     );
