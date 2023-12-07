@@ -24,7 +24,7 @@ const AllNormal = () => {
         document.querySelector("html").setAttribute("data-theme", localTheme)
     }, [theme])
     return (
-        <div className='tggl  p-4 top-2/4 right-0  fixed'>
+        <div className='tggl  p-4 top-2/4 right-0  fixed z-10'>
             <label className="swap swap-rotate">
 
                 <input onChange={handletoggle} type="checkbox" />

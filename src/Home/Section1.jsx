@@ -24,10 +24,10 @@ const Section1 = () => {
             <div className="p-5  ">
                 
             <Fade cascade damping={.1}>
-            <h3 className="text-xl font-semibold">MERN stack developer</h3>
+            <h3 className="text-xl font-semibold">Full stack developer</h3>
                 <h1 className="text-5xl font-bold mt-2 text-red-500">Hey ! I am </h1>
                 <h1 className="text-5xl font-bold mt-5 ">Anirban Chondro Banai</h1>
-                <p className="text-xl font-semibold mt-5">I am a MERN stack developer and experiences bulding Full-stack website</p>
+                <p className="text-xl font-semibold mt-5">I am a Next.js developer . I have Experience with MERN stack, PERN stack and Nest.js .</p>
 
                 <a href="mailto:anirbanchondrobanai@gmail.com">
                     <Btntt>Hire me</Btntt>

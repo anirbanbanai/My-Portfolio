@@ -22,11 +22,10 @@ const Section2 = () => {
             <div className="p-5 ">
                 <Fade cascade damping={0.1}>
                     <h2 className="text-2xl font-semibold text-red-500"> About Me</h2>
-                    <h1 className="text-4xl font-bold mt-3">Why Hire Me For Your Next Project?</h1>
-                    <p className=" font-semibold mt-5">I have extensive knowledge HTML, CSS, Bootstrap, Tailwind CSS, React , Mongodb, Express.JS, Node.JS, API,
-                            Debugging, Front-End development , Back-End development. I have recently complete my MERN stack
-                            project . And also complete more than 15 project based on my skills. Also, I am interested to work more with
-                            MERN stack development in future with the ABC company.</p>
+                    <h1 className="text-4xl font-bold mt-3">Why Hire Me?</h1>
+                    <p className=" font-semibold mt-5">I have extensive knowledge Redux,Typescript, Next.js, Nest.js, React.js,Node.js,Express.js also database used MongoDb, PostgreSQL, SQL .
+                           . Also, I am interested to work more with
+                            Full stack stack development in future with the your company.</p>
                    <div className="sm:flex">
                    <a href="https://drive.google.com/file/d/1JEEwXx3YPzM-VxzVoESnTmAvcAoW2V9T/view">
                         <Btntt>Download CV</Btntt>

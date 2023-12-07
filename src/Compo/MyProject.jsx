@@ -23,7 +23,7 @@ const MyProject = () => {
                   <div>
                   <h2 className='text-2xl text-center font-semibold mb-3'>Bleust</h2>
                         <img className='  rounded-2xl' src={img5} alt="" />
-                  <h2 className='text-sm font-semibold'>This is a social media site. Using Next.js,Typescript. email: anirbanbanaili@gmail.com , password: 1122Ani33</h2>
+                  
                   </div>
                    </div>
                 </div>

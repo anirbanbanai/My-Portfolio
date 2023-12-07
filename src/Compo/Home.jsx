@@ -14,11 +14,11 @@ const Home = () => {
     return (
         <div className="bgbg bg-slate-100 md:pt-20">
            <Section1></Section1>
-           <Experience/>
            <Section2></Section2>
-           <Service></Service>
            <Skills ></Skills>
            <MyProject></MyProject>
+           <Experience/>
+           <Service></Service>
            <Newslatter></Newslatter>
            <ContactMe></ContactMe>
            <Certification></Certification>
